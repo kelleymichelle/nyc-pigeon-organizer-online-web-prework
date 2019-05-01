@@ -14,7 +14,8 @@ def nyc_pigeon_organizer(data)
             
          if !bitches[pigeon][keys].include? ind_keys.to_s
            bitches[pigeon][keys] << ind_keys.to_s
-          break  
+         else
+           break
             end
           end
         end
