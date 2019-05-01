@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !bitches[pigeon][keys]
           bitches[pigeon][keys] = []
             
-         if !bitches[pigeon][keys].include? ind_keys.to_s
+         if bitches[pigeon][keys].include? ind_keys.to_s
            bitches[pigeon][keys] << ind_keys.to_s
          
             end
