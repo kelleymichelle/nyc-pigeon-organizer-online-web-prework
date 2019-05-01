@@ -22,6 +22,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   bitches
-  #binding.pry
+  binding.pry
 end
 
