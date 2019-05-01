@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |keys, color_data|
     color_data.each do |ind_keys, ind_values|
       ind_values.each do |pigeon|
-        
+        binding.pry
         if !bitches[pigeon]
           bitches[pigeon] = {}
         
