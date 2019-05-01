@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
            bitches[pigeon][keys] << ind_keys.to_s
          
            
-          
+          end
         end
       end
     end
