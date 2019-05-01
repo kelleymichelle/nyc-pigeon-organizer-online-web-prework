@@ -6,11 +6,11 @@ def nyc_pigeon_organizer(data)
     color_data.each do |ind_keys, ind_values|
       ind_values.each do |pigeon|
         #binding.pry
-        if !bitches[pigeon]
-          bitches[pigeon] = {}
+        #if !bitches[pigeon]
+          bitches[pigeon] ||= {}
         
-        if !bitches[pigeon][keys]
-          bitches[pigeon][keys] = []
+        #if !bitches[pigeon][keys]
+          bitches[pigeon][keys] ||= []
             
          #if bitches[pigeon][keys].include? ind_keys.to_s
            bitches[pigeon][keys] << ind_keys.to_s
